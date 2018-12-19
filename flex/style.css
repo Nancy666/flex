@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+pre {
+    margin: 20px 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 100px;
+}
+
+h4 {
+    margin: 0 100px;
+}
+
+p {
+    margin: 0 100px;
+}
+
+.box {
+    display: flex;
+    background: #dedede;
+    margin: 20px 100px;
+}
+
+.box-item {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    font-size: 40px;
+    line-height: 200px;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+}
+
+.item-tall {
+    height: 400px;
+}
+
+.box-tall {
+    height: 800px;
+}
+
+.box1 {
+    flex-direction: row;
+}
+
+.box2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box3 {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.box4 {
+    flex-flow: row-reverse wrap;
+}
+
+.box5 {
+    justify-content: flex-start;
+}
+
+.box6 {
+    align-items: center;
+}
+
+.box7 {
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.box8 {
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.box9 {
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.box10 {
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box11 {
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box12 {
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.box13 .order {
+    order: -1;
+}
+
+.box14 .flex-grow {
+    flex-grow: 0;
+}
+
+.box15 .flex-grow {
+    flex-grow: 1;
+}
+
+.box16 .flex-shrink {
+    flex-shrink: 0;
+}
+
+.box17 .flex-basis {
+    flex-basis: auto;
+}
+
+.box18 .flex {
+    flex: none;
+}
+
+.box19 {
+    height: 400px;
+    align-items: center;
+}
+
+.box19 .item {
+    align-self: flex-end;
+}
